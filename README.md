@@ -19,3 +19,9 @@ cmake -A Win32 -S ..
 cmake --build .
 ```
 Please note that `-A Win32` is quite important here since the detours lib installed via vcpkg only supports 32 bit builds.
+
+# How to run
+```
+cd build\bin\Debug
+loader.exe
+```

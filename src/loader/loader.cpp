@@ -61,9 +61,9 @@ void HookProcess::start() {
 }
 
 int main(int argc, char ** argv) {
-    const auto projectFolder{ "C:\\Users\\olafu\\source\\repos\\vvvvvv-hook\\" };
-    const auto binFolder{ "C:\\Users\\olafu\\source\\repos\\vvvvvv-hook\\build\\x86-windows\\bin\\Debug\\" };
-    const auto saveFolder{ "C:\\Users\\olafu\\Documents\\VVVVVV\\saves\\" };
+    const auto projectFolder{ "C:\\Users\\aspiringbuoy\\code\\vvvvvv-hook\\" };
+    const auto binFolder{ "C:\\Users\\aspiringbuoy\\code\\vvvvvv-hook\\build\\bin\\Debug\\" };
+    const auto saveFolder{ "C:\\Users\\aspiringbuoy\\Documents\\VVVVVV\\saves\\" };
 
     const auto tSave{ std::format("{}{}", saveFolder, "tsave.vvv") };
     const auto unlock{ std::format("{}{}", saveFolder, "unlock.vvv") };
@@ -71,7 +71,7 @@ int main(int argc, char ** argv) {
     const auto quickSave{ std::format("{}{}", saveFolder, "qsave.vvv") };
 
     const auto dll{ "hook.dll" };
-    const auto process{ std::format("{}{}", binFolder, "VVVVVV\\VVVVVV.exe") };
+    const auto process{ std::format("{}{}", binFolder, "sleep.exe") };
     const auto tasDataDestination{ std::format("{}{}", binFolder, "tas_data.txt") };
     DeleteFile(tasDataDestination.c_str());
 
