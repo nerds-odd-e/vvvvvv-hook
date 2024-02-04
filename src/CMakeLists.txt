@@ -57,3 +57,5 @@ set_target_properties(hook
     PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
 )
+
+add_subdirectory(sleep)
