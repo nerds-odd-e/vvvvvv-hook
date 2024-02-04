@@ -59,3 +59,4 @@ set_target_properties(hook
 )
 
 add_subdirectory(sleep)
+add_subdirectory(hook_sleep)

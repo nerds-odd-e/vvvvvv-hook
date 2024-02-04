@@ -70,7 +70,7 @@ int main(int argc, char ** argv) {
     const auto settings{ std::format("{}{}", saveFolder, "settings.vvv") };
     const auto quickSave{ std::format("{}{}", saveFolder, "qsave.vvv") };
 
-    const auto dll{ "hook.dll" };
+    const auto dll{ "hook_sleep.dll" };
     const auto process{ std::format("{}{}", binFolder, "sleep.exe") };
     const auto tasDataDestination{ std::format("{}{}", binFolder, "tas_data.txt") };
     DeleteFile(tasDataDestination.c_str());
